@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h2 {
+  color: #37aa2d;
+}
+
+#data-table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #a0a39e;
+  padding: 8px;
+}
+
+th {
+  background-color: #c2f8c2;
+}
+
+#exportButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #37aa2d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#exportButton:hover {
+  background-color: #2d8837;
+}
